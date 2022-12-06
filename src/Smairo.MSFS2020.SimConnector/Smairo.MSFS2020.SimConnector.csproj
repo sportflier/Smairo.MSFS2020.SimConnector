@@ -138,7 +138,6 @@
       <Name>Smairo.MSFS2020.Model</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(ProjectDir)SimConnect.cfg" "." /Y
